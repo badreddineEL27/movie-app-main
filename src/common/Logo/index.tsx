@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import LogoImg from "./../../assets/images/tmovie.webp";
+import LogoImg from "./../../assets/images/poly.jpg";
 
 interface logoProps {
   className?: string;
@@ -17,7 +17,7 @@ const Logo: React.FC<logoProps> = ({
   >
     <img src={LogoImg} alt="logo" className="sm:h-[28px] h-[24px] sm:w-[28px] w-[24px]" />
     <span className={`font-semibold sm:text-[18px] text-[16.75px] ${logoColor} `}>
-      tMovies
+      PolyVision
     </span>
   </Link>
 );
