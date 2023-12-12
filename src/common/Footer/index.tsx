@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 import Logo from "../Logo";
 
-import FooterImg from "./../../assets/images/footer-bg.webp";
+import FooterImg from "./../../assets/images/footer-bg.jpg";
 import { footerLinks } from "../../constants";
 import { maxWidth } from "../../styles";
 
